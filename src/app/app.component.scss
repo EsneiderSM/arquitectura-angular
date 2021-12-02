@@ -1,0 +1,29 @@
+header{
+    
+ width: 100%;
+ background-color: gray;
+ padding: 0 15px;
+
+ ul{
+
+    list-style: none;
+    
+    li{
+        display: inline-block;
+        padding: 0 5px;
+
+        a{
+            text-decoration: none;
+            display: inline-block;
+            padding: 10px 5px;
+            color: #fff;
+
+            &:hover{
+                background-color: #fff;
+                color: gray;
+            }
+        }
+    }
+ }
+
+}

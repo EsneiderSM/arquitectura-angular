@@ -1,0 +1,13 @@
+
+<section>
+    <div class="list hd-table">
+        <span>No. Episodio</span>
+        <span>Nombre</span>
+        <span>Fecha de estreno</span>
+    </div>
+    <div class="list" *ngFor="let episode of listEpisodes">
+        <span>{{ episode.episode }}</span>
+        <span>{{ episode.name }}</span>
+        <span>{{ episode.air_date }}</span>
+    </div>
+</section>

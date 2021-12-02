@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+section{
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.hd-table{
+    background-color: $blue;
+    font-weight: bold;
+    color: white;
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid $silver;
+    border-right: 1px solid $silver;
+
+    span{
+        display: inline-block;
+        padding: 3px 5px;
+        border-left: 1px solid $silver;
+        border-bottom: 1px solid $silver;
+    }
+}
